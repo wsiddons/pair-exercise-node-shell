@@ -1,4 +1,3 @@
-process.stdout.write("prompt > ");
 
 const pwdFunc = process.stdin.on("data", (data) => {
   const cmd = data.toString().trim();
